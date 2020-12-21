@@ -32,7 +32,7 @@ run `sh scripts/install-dependencies.sh`
 
 ## ADDING MODELS: NOTE
 
-When adding models, you must import the models to the main factory.py file or else the migration script 
+When adding models, you must import the models to the main app.py file or else the migration script 
 won't pick up the changes for the next generated migration
 
 
@@ -40,8 +40,8 @@ won't pick up the changes for the next generated migration
 [ ] TODO
 
 ## Deploying
-- This section depending on your deployment... 
-
+- This api can be easily deployed using Heroku or AWS Elastic Beanstalk.
+ 
 
 
 ## DB Starting from Scratch

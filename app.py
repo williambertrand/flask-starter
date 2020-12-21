@@ -10,11 +10,11 @@ ma = Marshmallow(app)
 migrate = Migrate(app, db)
 """ !*****************************************************************
 
-    Database Models Must be imported here to reflect changes in the DB 
+    Database Models Must be imported here to automatically trigger migrations and changes in the DB 
 
     !*****************************************************************
 """
-from app.main.models import user, game, score
+from app.main.models import user
 
 
 @app.shell_context_processor
